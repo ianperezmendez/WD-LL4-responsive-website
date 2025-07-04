@@ -1,0 +1,67 @@
+/* Set a dark background for the whole page and use a sans-serif font */
+body {
+  height: 100vh;
+  background-color: #222; /* Dark background */
+  font-family: Arial, Helvetica, sans-serif; /* Sans-serif font */
+  margin: 0; /* Remove default margin */
+}
+
+/* Style the navigation bar with a light blue pastel color */
+.navbar {
+  background-color: #BAF2E9; /* Light blue pastel */
+  padding: 12px 0;
+  display: flex; /* Place items side by side */
+  justify-content: space-between; /* Space between left and right */
+  align-items: center; /* Center items vertically */
+}
+
+/* Style for the website name on the left */
+.navbar-title {
+  color: #222; /* Dark text for contrast */
+  font-size: 20px;
+  margin-left: 20px;
+  font-weight: bold;
+}
+
+/* Style for the navigation buttons on the right */
+.navbar-buttons {
+  margin-right: 20px;
+}
+
+/* Style for the navigation buttons */
+.navbar-buttons button {
+  background-color: #fff; /* White buttons */
+  color: #222; /* Dark text */
+  border: none;
+  padding: 8px 16px;
+  margin-left: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background 0.2s;
+}
+
+/* Add a simple hover effect to the buttons */
+.navbar-buttons button:hover {
+  background-color: #BAF2E9; /* Same as navbar color */
+  color: #0074D9; /* Blue text on hover */
+}
+
+/* Center the main title on the screen */
+.main-title {
+  text-align: center;
+  margin-top: 100px;
+  font-size: 36px;
+  color: #BAF2E9; /* Light blue pastel */
+}
+
+section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+h1 {
+  color: #BAF2E9;
+}
